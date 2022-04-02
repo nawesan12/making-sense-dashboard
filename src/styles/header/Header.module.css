@@ -1,0 +1,72 @@
+.app_header {
+  max-width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5vh 0;
+}
+
+.app_header h1 {
+  font-size: calc(14px + 1.8vh);
+  margin: 0;
+  padding: 0;
+}
+
+.app_header .dashboard_title h4 {
+  color: var(--text-sub);
+}
+
+.app_header .theme_toggler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--text-main);
+}
+
+.app_header .theme_toggler .toggler {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 1rem;
+  padding: .15rem;
+  min-width: 5rem;
+  margin-left: .8rem;
+  background: var(--toggle);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.app_header .theme_toggler .toggler_thumb {
+  display: inline-block;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  background: var(--bg);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.app_header .theme_toggler .toggler_active {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+/*# sourceMappingURL=Header.module.css.map */

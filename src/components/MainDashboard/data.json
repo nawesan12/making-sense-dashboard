@@ -1,0 +1,30 @@
+[
+    {
+        "username": "@nathanf",
+        "followers": "1987",
+        "app": "facebook",
+        "upToday": "12",
+        "isGrowing": true
+    },
+    {
+        "username": "@nathanf",
+        "followers": "1044",
+        "app": "twitter",
+        "upToday": "99",
+        "isGrowing": true
+    },
+    {
+        "username": "@realnathanf",
+        "followers": "11k",
+        "app": "instagram",
+        "upToday": "1099",
+        "isGrowing": true
+    },
+    {
+        "username": "Nathan F.",
+        "followers": "8239",
+        "app": "youtube",
+        "upToday": "144",
+        "isGrowing": false
+    }
+]

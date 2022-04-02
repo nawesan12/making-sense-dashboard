@@ -1,0 +1,58 @@
+[
+    {
+        "type": "Page Views",
+        "app": "facebook",
+        "number": "87",
+        "percentage": "3",
+        "isGrowing": true
+    },
+    {
+        "type": "Likes",
+        "app": "facebook",
+        "number": "52",
+        "percentage": "2",
+        "isGrowing": false
+    },
+    {
+        "type": "Likes",
+        "app": "instagram",
+        "number": "5462",
+        "percentage": "2257",
+        "isGrowing": true
+    },
+    {
+        "type": "Profile Views",
+        "app": "instagram",
+        "number": "52k",
+        "percentage": "1375",
+        "isGrowing": true
+    },
+    {
+        "type": "Retweets",
+        "app": "twitter",
+        "number": "117",
+        "percentage": "303",
+        "isGrowing": true
+    },
+    {
+        "type": "Likes",
+        "app": "twitter",
+        "number": "507",
+        "percentage": "553",
+        "isGrowing": true
+    },
+    {
+        "type": "Likes",
+        "app": "youtube",
+        "number": "107",
+        "percentage": "19",
+        "isGrowing": false
+    },
+    {
+        "type": "Total Views",
+        "app": "youtube",
+        "number": "1407",
+        "percentage": "12",
+        "isGrowing": false
+    }
+]

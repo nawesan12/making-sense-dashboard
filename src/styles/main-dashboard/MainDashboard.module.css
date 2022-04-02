@@ -1,0 +1,239 @@
+.modal {
+  height: 31vh;
+  width: 34vh;
+  background: var(--card-bg);
+  border-radius: .5rem;
+  margin: 0 0 2.5vh 0;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.modal:hover {
+  -webkit-filter: brightness(var(--hover-brightness));
+          filter: brightness(var(--hover-brightness));
+}
+
+.modal .app_line {
+  height: .4rem;
+  width: 100%;
+  border-radius: .5rem .5rem 0 0;
+}
+
+.modal .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modal .content .social_app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: calc(14px + .08vh);
+  color: var(--text-sub);
+  font-weight: var(--bold-weight);
+  margin-top: 2.5vh;
+}
+
+.modal .content .social_app img {
+  margin-right: .6rem;
+}
+
+.modal .content .followers {
+  text-align: center;
+}
+
+.modal .content .followers h4 {
+  margin: 0;
+  padding: 0;
+  font-size: calc(14px + 5vh);
+  font-weight: var(--bold-weight);
+}
+
+.modal .content .followers span {
+  color: var(--text-sub);
+  font-size: calc(14px + .3vh);
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+}
+
+.modal .content .up_today {
+  color: var(--lime-green);
+  font-size: .8rem;
+  font-weight: var(--bold-weight);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .content .up_today span {
+  margin: 0 .5rem;
+}
+
+.modal .facebook {
+  background: var(--facebook);
+}
+
+.modal .instagram {
+  background: var(--instagram);
+}
+
+.modal .twitter {
+  background: var(--twitter);
+}
+
+.modal .youtube {
+  background: var(--youtube);
+}
+
+.chart_modal_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.chart_modal_container .chart_modal {
+  height: 65vh;
+  width: 70vw;
+  background: var(--top-bg-pattern);
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chart_modal_container .chart_modal header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding: 1.5rem 1.5rem 0 3.2rem;
+}
+
+.chart_modal_container .chart_modal header .close_modal {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 0 0 1rem 0;
+}
+
+.chart_modal_container .chart_modal header h2 {
+  margin: 0;
+  font-size: calc(14px + 3vh);
+}
+
+.chart_modal_container .chart_modal header p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--text-sub);
+  font-weight: var(--bold-weight);
+}
+
+.chart_modal_container .chart_modal header p img {
+  margin-right: .6rem;
+}
+
+.chart_modal_container .chart_modal header .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chart_modal_container .chart_modal header .numbers .statistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chart_modal_container .chart_modal header .numbers .statistic h3 {
+  font-size: calc(14px + 4vh);
+  margin-right: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chart_modal_container .chart_modal header .numbers .greenie {
+  color: var(--lime-green);
+  -webkit-filter: saturate(0.8);
+          filter: saturate(0.8);
+}
+
+.chart_modal_container .chart_section {
+  background: var(--bg);
+  border-radius: 1.8rem;
+  min-height: 60%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.chart_modal_container .chart_section .chart_skeleton {
+  height: 70%;
+  width: 70%;
+  border-radius: 1.8rem;
+  outline: 1px solid var(--text-sub);
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=MainDashboard.module.css.map */
