@@ -4,7 +4,7 @@ import upIcon from '../../images/icon-up.svg'
 
 export default function Modal(props) {
     return (
-        <section className={props.showModal === true ? styles.chart_modal_container : styles.hidden}>
+        <section className={styles.chart_modal_container}>
             <article className={styles.chart_modal}>
                 <header>
                     <span onClick={props.closeModal} className={styles.close_modal}>X</span>

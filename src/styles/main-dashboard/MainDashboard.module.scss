@@ -1,3 +1,13 @@
+@keyframes appear {
+    from {
+        opacity: 0;
+    }       
+
+    to {
+        opacity: 1;
+    }
+}
+
 .modal {
     height:31vh;
     width:34vh;
@@ -94,6 +104,7 @@
     background:rgba(0, 0, 0, .5);
     display:grid;
     place-items:center;
+    animation: appear .2s linear;
 
     .chart_modal {
         height:65vh;
@@ -180,4 +191,33 @@
 
 .hidden {
     display:none;
+}
+
+@media screen and (max-width:900px) {
+    .chart_modal {
+        min-height:70vh;
+        min-width:90vw;
+        min-width: none;
+        overflow-y:auto;
+
+        .numbers {
+            display:flex;
+            flex-direction: column;
+
+            .statistic {
+                align-self:start;
+            }
+
+            h3 {
+                margin:.3rem 0;
+            }
+        }
+    }
+
+    .chart_section {
+        .chart_skeleton {
+            height:80%;
+            width:100%;
+        }
+    }
 }

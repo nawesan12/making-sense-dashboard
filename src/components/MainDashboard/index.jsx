@@ -83,7 +83,7 @@ export default function MainDashboard() {
             </article>
         </ModalsContainer>
 
-        <Modal closeModal={() => setShowModal(false)} showModal={showModal} />
+        { showModal && <Modal closeModal={() => setShowModal(false)} /> }
         </>
     )
 }

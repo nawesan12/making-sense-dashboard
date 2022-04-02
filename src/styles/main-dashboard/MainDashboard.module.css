@@ -1,3 +1,21 @@
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .modal {
   height: 31vh;
   width: 34vh;
@@ -115,6 +133,8 @@
   display: -ms-grid;
   display: grid;
   place-items: center;
+  -webkit-animation: appear .2s linear;
+          animation: appear .2s linear;
 }
 
 .chart_modal_container .chart_modal {
@@ -235,5 +255,35 @@
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .chart_modal {
+    min-height: 70vh;
+    min-width: 90vw;
+    min-width: none;
+    overflow-y: auto;
+  }
+  .chart_modal .numbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .chart_modal .numbers .statistic {
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
+  .chart_modal .numbers h3 {
+    margin: .3rem 0;
+  }
+  .chart_section .chart_skeleton {
+    height: 80%;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=MainDashboard.module.css.map */
